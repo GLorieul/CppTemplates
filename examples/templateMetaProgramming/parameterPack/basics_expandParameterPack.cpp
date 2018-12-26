@@ -1,8 +1,6 @@
 
 #include <iostream>
 
-// Variadic template function :: accessParameterPack
-
 template<int ... numbers>
 int sum()
 {
